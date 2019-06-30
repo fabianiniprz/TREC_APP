@@ -9,12 +9,15 @@
     </nav>
 
     <hr />
+    
+    <img src='@/assets/banner1.png' alt="">
 
     <article>
 
+
         <section>
             <h1>T R E C</h1>
-            <p class="black"> La terapia relacional emotiva conductual o por sus siglas TREC, se centra en mejorar tres ámbitos en nuestras vidas: la racional, el emotivo, y el conductual. Esto se logra enseñando a las personas a examinar sus propios pensamientos, creencias y acciones autp-derrotistas y cambiarlas por alternativas más productivas para su vida. <br>
+            <p class="black"> La terapia relacional emotiva conductual o por sus siglas TREC, se centra en mejorar tres ámbitos en nuestras vidas: la racional, el emotivo, y el conductual. Esto se logra enseñando a las personas a examinar sus propios pensamientos, creencias y acciones auto-derrotistas y cambiarlas por alternativas más productivas para su vida. <br>
             la TREC desarrolló a partir de las emociones y conductas son producto de las creencias de una persona o de la interpretación que haga de la realidad. De esta compresión se desprende el ABC de la TREC
 
             </p>
@@ -53,6 +56,7 @@
 
 
 <script>
+
 export default {
   data() {
     return {};
@@ -116,6 +120,13 @@ footer {
    color: white;
   background: #0099ff;
   border-radius: 20em;
+}
+
+img {
+
+width: 50;
+height: 50;
+
 }
 
 </style>
